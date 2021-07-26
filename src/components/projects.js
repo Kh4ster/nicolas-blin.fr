@@ -79,7 +79,7 @@ export default ({data}) => {
             </ProjectsGrid>
 
             <Buttons>
-                <Button to={'https://github.com/theolepage'} external>
+                <Button to={'https://github.com/Kh4ster'} external>
                     See all projects on GitHub
                     <GithubIcon />
                 </Button>

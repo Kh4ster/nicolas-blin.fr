@@ -21,10 +21,10 @@ export default ({ data }) => {
         <Container>
             <SEO />
 
-            <h1>Theo Lepage</h1>
+            <h1>Nicolas Blin</h1>
 
             <About />
-            <Research />
+            {/* <Research /> */}
             <Projects data={data} />
         </Container>
     )

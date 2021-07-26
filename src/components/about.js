@@ -3,25 +3,22 @@ import styled from "@emotion/styled"
 
 import Button from "./button"
 
-const EMAIL_ADDRESS = 'theo@theolepage.com'
+const EMAIL_ADDRESS = 'nicolas@nicolas-blin.fr'
 
 const ABOUT_TEXT = `
-    I am <b>Theo Lepage</b>, a computer engineering student
+    My name is <b>Nicolas Blin</b>, I am a computer engineering student
     at <b>EPITA</b> based in Paris, France.
-    I am driven by experimentation and by understanding everything
-    that computer science covers.
-    I am mainly motivated by the applications of <b>image/audio processing and
-    machine learning</b> in real world projects.
+    As an optimisation enthusiast, I bet on low level and threads to make programs more efficient.
+    Therefore, I program daily in C++/CUDA to take advantage of GPUs and be able to write generic code.
 `
 
 const ALERT_TEXT = `
-    I am seeking an internship in Computer Vision or
-    Machine Learning starting in January 2022.
+    Looking for a 6 months internship in C++/GPGPU programming
+    starting in February 2022.
 `
 
 const Alert = styled.div`
     display: inline-block;
-    display: none;
 
     margin: 30px 0 0 0;
     padding: 14px 32px;
@@ -58,7 +55,7 @@ export default () => {
                 <p dangerouslySetInnerHTML={{ __html: ABOUT_TEXT }} />
 
                 <Actions>
-                    <Button to="/resume">Read my resume</Button>
+                    <Button to={'/uploads/resume.pdf'} external>Read my resume</Button>
                     <div>
                         or reach me at <a href={'mailto:' + EMAIL_ADDRESS}>
                             {EMAIL_ADDRESS.replace('@', '[at]')}</a>.

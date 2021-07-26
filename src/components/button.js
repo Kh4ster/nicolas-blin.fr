@@ -33,6 +33,6 @@ const button = css`
 
 export default ({to, external, children}) => {
     if (external)
-        return <Link css={button} to={to} target="_blank" rel="nofollow noopener noreferrer">{children}</Link>
+        return <a css={button} href={to} target="_blank" rel="nofollow noopener noreferrer">{children}</a>
     return <Link css={button} to={to}>{children}</Link>
 }

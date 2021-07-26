@@ -1,7 +1,7 @@
 {
-    "name": "theolepage.com",
+    "name": "nicolas-blin.fr",
     "private": true,
-    "description": "Website of Theo Lepage",
+    "description": "Website of Nicolas Blin",
     "version": "1.0.0",
     "scripts": {
         "build": "gatsby build",

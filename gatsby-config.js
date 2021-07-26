@@ -10,16 +10,16 @@ require("dotenv").config({
 
 module.exports = {
     siteMetadata: {
-        title: `Theo Lepage`,
+        title: `Nicolas Blin`,
         description: 'Learn more about me and my projects.',
-        author: `Theo Lepage`
+        author: `Nicolas Blin`
     },
     plugins: [
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Theo Lepage · Website`,
-                short_name: `Theo Lepage`,
+                name: `Nicolas Blin · Website`,
+                short_name: `Nicolas Blin`,
                 start_url: `/`,
                 background_color: `#1e77e3`,
                 theme_color: `#1e77e3`,
@@ -61,7 +61,7 @@ module.exports = {
             resolve: `gatsby-source-github-repos`,
             options: {
                 token: process.env.GITHUB_API_TOKEN,
-                query: "user:theolepage topic:meta-project-show fork:true sort:updated-desc",
+                query: "user:Kh4ster topic:meta-project-show fork:true sort:updated-desc",
                 limit: 10
             },
         }
