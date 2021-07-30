@@ -13,4 +13,4 @@ export default () => {
             <p>I was able to reach an x10 speed-up compared to the best multi-threaded algorithm and thus achieve the desired real-time goal.
             </p>
             <Button to={'/uploads/techrep.pdf'} external>Read my research report</Button><Button to={'/uploads/seminar.pdf'} external>Check out my research conference slides</Button>
-        </div>Check out my research conference slides
+        </div>
