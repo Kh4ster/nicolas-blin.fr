@@ -24,7 +24,7 @@ export default ({ data }) => {
             <h1>Nicolas Blin</h1>
 
             <About />
-            {/* <Research /> */}
+            <Research />
             <Projects data={data} />
         </Container>
     )

@@ -1,38 +1,18 @@
 import React from "react"
+import Button from "./button"
 
 export default () => {
     return (
         <div>
-            <h2>Publications / talks</h2>
-            <ul>
-                <li>
-                    <h3>Self-supervised learning applied to speaker and language recognition</h3>
-                    <ul>
-                        <li>
-                            Lightning Talks
-                            (<a target="_blank" rel="nofollow noopener noreferrer" href="https://www.youtube.com/watch?v=_zBMZ22n6Lk&list=PLi4WQQO33eqU22Le1MFwgqRUtjdptCm6h">videos</a>)
-                        </li>
-                        <li>
-                            Technical report
-                            (report)
-                        </li>
-                        <li>
-                            <a target="_blank" rel="nofollow noopener noreferrer" href="https://www.lrde.epita.fr/">LRDE</a> Seminar 2021
-                            (<a target="_blank" rel="nofollow noopener noreferrer" href="/uploads/RDI_seminar_2021.pdf">slides</a>, video)
-                        </li>
-                    </ul>
-                </li>
+            <h2>Scientific research</h2>
 
-                <li>
-                    <h3>Real-time holography of retinal blood flow</h3>
-                    <ul>
-                        <li>
-                            Real-time photo-plethysmography of the hand by digital holography
-                            (article)
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+            <p>I got the opportunity to be one of the 9 students selected at the <strong>EPITA Research & Development Laboratory (LRDE)</strong>. I was thus able to follow in parallel of my image processing courses the RDI curriculum dedicated to research. This includes working daily with a researcher and publishing articles.
+            </p>
+            <p>My field of study is <strong>GPU parallelization of the Max-tree algorithm</strong> using C++ and CUDA.
+            </p>
+            <p>I was able to reach an x10 speed-up compared to the best multi-threaded algorithm and thus achieve the desired real-time goal.
+            </p>
+            <Button to={'/uploads/techrep.pdf'} external>Read my research report</Button><Button to={'/uploads/seminar.pdf'} external>Checkout my research conference slides</Button>
         </div>
     )
 }

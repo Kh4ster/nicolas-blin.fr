@@ -58,7 +58,8 @@ export default () => {
                     <Button to={'/uploads/resume.pdf'} external>Read my resume</Button>
                     <div>
                         or reach me at <a href={'mailto:' + EMAIL_ADDRESS}>
-                            {EMAIL_ADDRESS.replace('@', '[at]')}</a>.
+                            {EMAIL_ADDRESS.replace('@', '[at]')} </a>
+                        or on <a target="_blank" rel="nofollow noopener noreferrer" href="https://www.linkedin.com/in/blin-nicolas/">Linkedin</a>.
                     </div>
                 </Actions>
             </div>
