@@ -6,8 +6,8 @@ import Button from "./button"
 const EMAIL_ADDRESS = 'nicolas@nicolas-blin.fr'
 
 const ABOUT_TEXT = `
-    My name is <b>Nicolas Blin</b>, I am a computer engineering student
-    at <b>EPITA</b> based in Paris, France.
+    <p>My name is <b>Nicolas Blin</b>, I am a computer engineering student
+    at <b>EPITA</b> based in Paris, France.</p><p></p>
     As an optimisation enthusiast, I bet on low level and threads to make programs more efficient.
     Therefore, I program daily in C++/CUDA to take advantage of GPUs and be able to write generic code.
 `
