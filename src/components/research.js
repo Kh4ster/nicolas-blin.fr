@@ -14,3 +14,5 @@ export default () => {
             </p>
             <Button to={'/uploads/techrep.pdf'} external>Read my research report</Button><Button to={'/uploads/seminar.pdf'} external>Check out my research conference slides</Button>
         </div>
+    )
+}
