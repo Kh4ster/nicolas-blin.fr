@@ -5,13 +5,6 @@ import Button from "./button"
 
 const EMAIL_ADDRESS = 'nicolas@nicolas-blin.fr'
 
-const ABOUT_TEXT = `
-    <p>My name is <b>Nicolas Blin</b>, I am a computer engineering student
-    at <b>EPITA</b> based in Paris, France.</p><p></p>
-    As an optimisation enthusiast, I bet on low level and threads to make programs more efficient.
-    Therefore, I program daily in C++/CUDA to take advantage of GPUs and be able to write generic code.
-`
-
 const ALERT_TEXT = `
     Looking for a 6 months internship in C++/GPGPU programming
     starting in February 2022.
@@ -52,7 +45,14 @@ export default () => {
 
             <h2>About</h2>
             <div>
-                <p dangerouslySetInnerHTML={{ __html: ABOUT_TEXT }} />
+                <p>
+                    My name is <b>Nicolas Blin</b>, I am a computer engineering student
+                    at <b>EPITA</b> based in Paris, France.
+                </p>
+                <p>
+                    As an optimisation enthusiast, I bet on low level and threads to make programs more efficient.
+                    Therefore, I program daily in C++/CUDA to take advantage of GPUs and be able to write generic code.
+                </p>
 
                 <Actions>
                     <Button to={'/uploads/Resume_BLIN_Nicolas.pdf'} external>Read my resume</Button>
