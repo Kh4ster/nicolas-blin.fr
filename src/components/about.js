@@ -55,7 +55,7 @@ export default () => {
                 <p dangerouslySetInnerHTML={{ __html: ABOUT_TEXT }} />
 
                 <Actions>
-                    <Button to={'/uploads/resume.pdf'} external>Read my resume</Button>
+                    <Button to={'/uploads/Resume_BLIN_Nicolas.pdf'} external>Read my resume</Button>
                     <div>
                         or reach me at <a href={'mailto:' + EMAIL_ADDRESS}>
                             {EMAIL_ADDRESS.replace('@', '[at]')} </a>
