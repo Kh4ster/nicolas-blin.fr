@@ -13,7 +13,7 @@ const ABOUT_TEXT = `
 `
 
 const ALERT_TEXT = `
-    Looking for a 6 months internship in C++/GPGPU programming
+    Looking for a 6-month internship in C++/GPGPU programming
     starting in February 2022.
 `
 
