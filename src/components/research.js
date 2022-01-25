@@ -10,8 +10,9 @@ export default () => {
             </p>
             <p>My field of study is <strong>GPU parallelization of the Max-tree algorithm</strong> using C++ and CUDA.
             </p>
-            <p>I was able to reach an x10 speed-up compared to the best multi-threaded algorithm and thus achieve the desired real-time goal.
+            <p>I was able to reach an <b>x10 speed-up</b> compared to the best multi-threaded algorithm and thus achieve the desired real-time goal.
             </p>
+            <p>Algorithm details and results were bundled in a scientific paper written with my supervisor <b>Edwin Carlinet</b> and submitted to TPDS (IEEE Transactions on Parallel and Distributed Systems).</p>
             <Button to={'/uploads/techrep.pdf'} external>Read my research report</Button><Button to={'/uploads/seminar.pdf'} external>Check out my research conference slides</Button>
         </div>
     )

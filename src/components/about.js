@@ -41,12 +41,12 @@ const Actions = styled.div`
 export default () => {
     return (
         <div>
-            <Alert dangerouslySetInnerHTML={{ __html: ALERT_TEXT }} />
+            {/* <Alert dangerouslySetInnerHTML={{ __html: ALERT_TEXT }} /> */}
 
             <h2>About</h2>
             <div>
                 <p>
-                    My name is <b>Nicolas Blin</b>, I am a computer engineering student
+                    My name is <b>Nicolas Blin</b>, I am a computer engineering student and research assistant
                     at <b>EPITA</b> based in Paris, France.
                 </p>
                 <p>
