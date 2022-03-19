@@ -3,7 +3,7 @@ import styled from "@emotion/styled"
 
 import Button from "./button"
 
-const EMAIL_ADDRESS = 'nicolas@nicolas-blin.fr'
+const EMAIL_ADDRESS = 'nicolas.blin7@hotmail.fr'
 
 const ALERT_TEXT = `
     Looking for a 6-month internship in C++/GPGPU programming
@@ -46,12 +46,10 @@ export default () => {
             <h2>About</h2>
             <div>
                 <p>
-                    My name is <b>Nicolas Blin</b>, I am a computer engineering student and research assistant
-                    at <b>EPITA</b> based in Paris, France.
+                    My name is <b>Nicolas Blin</b>, I am a Software Engineering Intern at <b>NVIDIA</b>.
                 </p>
                 <p>
-                    As an optimisation enthusiast, I bet on low level and threads to make programs more efficient.
-                    Therefore, I program daily in C++/CUDA to take advantage of GPUs and be able to write generic code.
+                    My research interests involve algorithms parallelization on GPU and metaheuristic algorithms.
                 </p>
 
                 <Actions>
