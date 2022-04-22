@@ -12,7 +12,7 @@ export default () => {
             </p>
             <p>I was able to reach <b>x10 speed-up</b> compared to the best multi-threaded algorithm and thus achieve the desired real-time goal.
             </p>
-            <p>Algorithm details and results were bundled in a scientific paper written with my supervisor <b>Edwin Carlinet</b> and published in TPDS (IEEE Transactions on Parallel and Distributed Systems).</p>
+            <p>Algorithm details and results were bundled in a scientific paper written with my supervisor <b>Edwin Carlinet</b> and published in TPDS (IEEE Transactions on Parallel and Distributed Systems), A* scientific journal.</p>
             <Button to={'/uploads/paper.pdf'} external>Read the paper</Button>
         </div>
     )
