@@ -46,10 +46,10 @@ export default () => {
             <h2>About</h2>
             <div>
                 <p>
-                    My name is <b>Nicolas Blin</b>, I am a Software Engineering Intern at <b>NVIDIA</b>.
+                    My name is <b>Nicolas Blin</b>, I am a <b>DevTech Engineer at NVIDIA</b>.
                 </p>
                 <p>
-                    My research interests involve algorithms parallelization on GPU and metaheuristic algorithms.
+                    My research interests involve <b>algorithms parallelization on GPU</b> and <b>metaheuristic algorithms</b>.
                 </p>
 
                 <Actions>
